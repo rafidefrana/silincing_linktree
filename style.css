@@ -203,6 +203,19 @@ footer {
   }
 }
 
+@media (min-width: 767px) {
+  body {
+    overflow: auto;
+  }
+  .share {
+    position: relative;
+    display: flex;
+    bottom: 125px;
+    left: 100%;
+    transform: translateX(-40%);
+  }
+}
+
 @media (min-width: 992px) {
   body {
     overflow: auto;
