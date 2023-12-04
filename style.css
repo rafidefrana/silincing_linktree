@@ -10,7 +10,7 @@
 body {
   height: 100vh;
   width: 100%;
-  /* overflow: hidden; */
+
   z-index: -1;
   background-color: #888;
 }
@@ -203,19 +203,6 @@ footer {
   }
 }
 
-@media (max-width: 767px) {
-  body {
-    overflow: auto;
-  }
-  .share {
-    position: relative;
-    display: flex;
-    bottom: 125px;
-    left: 100%;
-    transform: translateX(-40%);
-  }
-}
-
 @media (min-width: 992px) {
   body {
     overflow: auto;
@@ -226,12 +213,6 @@ footer {
     bottom: 125px;
     left: 100%;
     transform: translateX(-40%);
-  }
-}
-
-@media (max-width: 1200px) {
-  body {
-    overflow: hidden;
   }
 }
 
