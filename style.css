@@ -10,7 +10,7 @@
 body {
   height: 100vh;
   width: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
   z-index: -1;
   background-color: #888;
 }
@@ -134,4 +134,116 @@ footer {
   text-align: center;
   align-items: center;
   justify-content: center;
+  margin: auto;
+}
+
+@media (min-width: 300px) {
+  .title {
+    text-align: center;
+  }
+  .description {
+    text-align: center;
+  }
+  * {
+    margin: 2px;
+    margin-right: 8px;
+  }
+  body {
+    overflow: auto;
+  }
+
+  footer {
+    font-size: 0.8em;
+    margin-bottom: 0.7rem;
+  }
+  .share {
+    position: relative;
+    display: flex;
+    bottom: 125px;
+    left: 72%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (min-width: 400px) {
+  .title {
+    text-align: center;
+  }
+
+  * {
+    margin: 2px;
+    margin-right: 8px;
+  }
+  body {
+    overflow: auto;
+  }
+  footer {
+    font-size: 0.8em;
+    margin-bottom: 0.7rem;
+  }
+  .share {
+    position: relative;
+    display: flex;
+    bottom: 125px;
+    left: 85%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 567px) {
+  body {
+    overflow: auto;
+  }
+  .share {
+    position: relative;
+    display: flex;
+    bottom: 125px;
+    left: 72%;
+    transform: translateX(-40%);
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    overflow: hidden;
+  }
+  .share {
+    position: relative;
+    display: flex;
+    bottom: 125px;
+    left: 100%;
+    transform: translateX(-40%);
+  }
+}
+
+@media (min-width: 992px) {
+  body {
+    overflow: auto;
+  }
+  .share {
+    position: relative;
+    display: flex;
+    bottom: 125px;
+    left: 100%;
+    transform: translateX(-40%);
+  }
+}
+
+@media (max-width: 1200px) {
+  body {
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 1400px) {
+  body {
+    overflow: hidden;
+  }
+  .share {
+    position: relative;
+    display: flex;
+    bottom: 125px;
+    left: 100%;
+    transform: translateX(-40%);
+  }
 }
