@@ -160,7 +160,7 @@ footer {
     position: relative;
     display: flex;
     bottom: 125px;
-    left: 5%;
+    left: 75%;
     transform: translateX(-50%);
   }
 }
@@ -185,8 +185,8 @@ footer {
     position: relative;
     display: flex;
     bottom: 125px;
-    left: 5%;
-    transform: translateX(-50%);
+    left: 100%;
+    transform: translateX(-30%);
   }
 }
 
@@ -198,7 +198,7 @@ footer {
     position: relative;
     display: flex;
     bottom: 125px;
-    left: 5%;
+    left: 80%;
     transform: translateX(-40%);
   }
 }
