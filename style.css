@@ -160,7 +160,7 @@ footer {
     position: relative;
     display: flex;
     bottom: 125px;
-    left: 72%;
+    left: 5%;
     transform: translateX(-50%);
   }
 }
@@ -185,12 +185,12 @@ footer {
     position: relative;
     display: flex;
     bottom: 125px;
-    left: 85%;
+    left: 5%;
     transform: translateX(-50%);
   }
 }
 
-@media (max-width: 567px) {
+@media (min-width: 600px) {
   body {
     overflow: auto;
   }
@@ -198,14 +198,14 @@ footer {
     position: relative;
     display: flex;
     bottom: 125px;
-    left: 72%;
+    left: 5%;
     transform: translateX(-40%);
   }
 }
 
 @media (max-width: 767px) {
   body {
-    overflow: hidden;
+    overflow: auto;
   }
   .share {
     position: relative;
